@@ -14,7 +14,7 @@ var port = process.env.PORT || 8080;
 var message = process.env.MESSAGE || "Hello world!";
 
 app.get('/', function (req, res) {
-    res.render('home', {
+    res.render('Welcome world', {
       message: message,
       platform: os.type(),
       release: os.release(),
